@@ -44,7 +44,7 @@ class LaravelFormAjaxValidationServiceProvider extends ServiceProvider {
             }
         });
         $this->publishes([
-            __DIR__.'/views' => base_path('resources/views/vendor/lrgt'),
+            __DIR__ . '/views' => base_path('resources/views/vendor/lrgt'),
         ]);
 	}
 
