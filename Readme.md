@@ -17,7 +17,7 @@ Or edit your composer.json
 
 ```json
 "require": {
-    "lrgt/laravel-form-ajax-validation": "dev-master"
+    "Gefar/laravel-form-ajax-validation": "dev-master"
 },
 ```
 
@@ -28,7 +28,7 @@ Open the file config/app.php
 ```php
 "providers": {
     ...
-    'Lrgt\LaravelFormAjaxValidation\LaravelFormAjaxValidationServiceProvider',
+    'Gefar\LaravelFormAjaxValidation\LaravelFormAjaxValidationServiceProvider',
     ...
 },
 ```
@@ -122,13 +122,3 @@ You need jQuery 1.11.2 or higher
 
 ![Preview validation](http://i1277.photobucket.com/albums/y485/guicho0601/Captura%20de%20pantalla%202015-06-02%20a%20las%2022.15.51_zpsvm5wevpp.png)
 
-***
-
-### Author
-
-- __Name:__ Luis Ramos
-- __Email:__ guicholarg@gmail.com
-
-### License
-
-The laravel-form-ajax-validation library is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
